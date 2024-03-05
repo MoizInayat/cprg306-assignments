@@ -18,20 +18,9 @@ export default function Home() {
         <Link href="/week-5" target="blank"><text> week-5 Assignment</text></Link>
         </div>
         <div className="text-lg flex items-center justify-start w-full">
-        <Link href="/week-5" target="blank"><text> week-6 Assignment</text></Link>
+        <Link href="/week-6" target="blank"><text> week-6 Assignment</text></Link>
         </div>
-        <div className="text-lg flex items-center justify-start w-full">
-        <Link href="/week-5" target="blank"><text> week-7 Assignment</text></Link>
-        </div>
-        <div className="text-lg flex items-center justify-start w-full">
-        <Link href="/week-5" target="blank"><text> week-8 Assignment</text></Link>
-        </div>
-        <div className="text-lg flex items-center justify-start w-full">
-        <Link href="/week-5" target="blank"><text> week-9 Assignment</text></Link>
-        </div>
-        <div className="text-lg flex items-center justify-start w-full">
-        <Link href="/week-5" target="blank"><text> week-10 Assignment</text></Link>
-        </div>
+       
 
 
 
