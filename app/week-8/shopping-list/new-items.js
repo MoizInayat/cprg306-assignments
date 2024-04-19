@@ -72,7 +72,6 @@ const NewItem = ({ onAddItem }) => {
           +
         </button>
       </div>
-      {/* </div> */}
     </form>
   );
 };

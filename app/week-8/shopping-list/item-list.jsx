@@ -1,5 +1,5 @@
 "use client";
-import Item from "./item";
+import Item from "./item.js";
 import React, { useState } from "react";
 
 const ItemList = ({ items, onItemSelect }) => {

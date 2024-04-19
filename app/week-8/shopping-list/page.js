@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import ItemList from "./item-list";
-import NewItem from "./new-item";
+import NewItem from "./new-items";
 import itemsData from "./items.json";
 import MealIdeas from "./meal-ideas";
 
@@ -18,10 +18,10 @@ const Page = () => {
   };
 
   return (
-    <main className="bg-gray-900 w-full p-8 flex">
-      <div className="pr-4">
+    <main className="bg-slate-950 w-full p-8 flex">
+      <div className="  pr-4  ">
         <h1 className="text-2xl font-bold mb-4 text-white">Shopping List</h1>
-        <h3 className="text-xl font-medium text-white mb-2">Add New Item</h3>
+        <h3 className="text-xl font- text-white">Add New Item</h3>
         <NewItem onAddItem={handleAddItem} />
         <ItemList items={items} onItemSelect={handleItemSelect} />
       </div>
